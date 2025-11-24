@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/index.css" />
-    <title>спагетти карбонара</title>
-  </head>
 
-  <body>
-    <header>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="./styles/index.css">
+   <title>Document</title>
+</head>
 
-      <header class="header">
-        </header
+<body>
+
+
+
+
+
+
+
+
+
+   <header class="header">
       <div class="container">
-        <div class="header_box"
-        <a class="header_Logo" href="#"></a>
+         <nav class="header__nav">
+            <a class="header__logo" href="/">
+               <img src="./images/logo.svg" alt="Картинка Логотипа">
+            </a>
+            <div class="header__menu">
+               <a class="header__link" href="#">Меню</a>
+               <a class="header__link" href="#">О нас</a>
+               <a class="header__link" href="#">Доставка</a>
+               <a class="header__link" href="#">Адрес</a>
+               <a class="header__link" href="#">Контакты</a>
+            </div>
+         </nav>
+      </div>
+   </header>
 
-      </div>
-      <img src="./images/лого неаполь.svg"
-      <div class="header_menu">
-      <a class="header_link" href="">Меню</a>
-      <a class="header_link" href="">о нас</a>
-      <a class="header_link" href="">Доставка</a>
-      <a class="header_link" href="">Адрес</a>
-      <a class="header_link" href="">Контакты</a>
-      </div>
-    </header>
-    <script src="./scripts/index.js"></script>
-  </body>
+
+   <main>
+      <section class="hero">
+         <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+               <!-- Additional required wrapper -->
+               <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                     <h1 class="hero__title">Спагетти карбонара</h1>
+                     <p class="hero__text">Традиционный итальянский рецепт - изысканный вкус и наслаждение</p>
+                  </div>
+                  <div class="swiper-slide">
+                     <h1 class="hero__title">Спагетти карбонара</h1>
+                     <p class="hero__text">Традиционный итальянский рецепт - изысканный вкус и наслаждение</p>
+                  </div>
+                  <div class="swiper-slide">
+                     <h1 class="hero__title">Спагетти карбонара</h1>
+                     <p class="hero__text">Традиционный итальянский рецепт - изысканный вкус и наслаждение</p>
+                  </div>
+               </div>
+               <!-- If we need pagination -->
+               <div class="hero__dots"></div>
+            </div>
+
+
+
+         </div>
+      </section>
+
+   </main>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   <script src="./scripts/index.js"></script>
+</body>
+
 </html>
