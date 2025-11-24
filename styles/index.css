@@ -1,0 +1,36 @@
+@import "./reset.css";
+
+:root {
+  --background: #000;
+  --foreground: #fff;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+  background-image: url("../images/фон.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  padding-top: 26px;
+}
+.header_link{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.header_menu{
+display: flex;
+gap: 30px;
+}
+
+/* ----------------------------------------- */
